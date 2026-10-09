@@ -86,8 +86,8 @@ const Header = () => {
 
   return (
    
-        <div className='fixed z-50 w-full overflow-x-hidden overflow-y-hidden top-0 flex items-center justify-between h-[15vh] px-[2vw] '>
-            <div className='h-[4vh] w-[10vw] flex flex-col gap-[0.5vw] group justify-between items-center duration-400 transition-all  overflow-hidden cursor-pointer'>  
+  <div className='fixed z-50 w-full overflow-x-hidden overflow-y-hidden top-0 flex items-center justify-between h-[15vh] px-[2vw] '>
+  <div className='h-[4vh] w-[10vw] flex flex-col gap-[0.5vw] group justify-between items-center duration-400 transition-all  overflow-hidden cursor-pointer'>  
   <div className='h-full w-full translate-y-[-100%] group-hover:translate-y-[20%] duration-400 transition-all '>
     <Image 
       src='/assets/icons/logo.svg' 
@@ -110,7 +110,7 @@ const Header = () => {
 
            
 
-            <div className='flex justify-between gap-[2.5vw] pl-[11vw] font-display'>
+<div className='flex justify-between gap-[2.5vw] pl-[11vw] font-display'>
   {navItems.map((link) => (
     <div key={link.id} className='overflow-hidden h-[2vw] group relative'>
       <Link href={link.link} className='block font-heading font-medium text-[1.3vw] text-black nav-links transition-all duration-300  group-hover:translate-y-[100%]'>
